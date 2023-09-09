@@ -1,0 +1,6 @@
+version: v1
+build:
+  excludes:
+    - testdata
+    - examples
+    - go/jsonformat/internal
