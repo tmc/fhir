@@ -1,0 +1,17 @@
+version: v1
+name: buf.build/tmc/fhir
+build:
+  excludes:
+    - testdata
+    - examples
+    - go/jsonformat/internal
+breaking:
+  use:
+    - FILE
+lint:
+  use:
+    - MINIMAL
+  ignore:
+    - testdata
+    - examples
+    - go/jsonformat/internal
