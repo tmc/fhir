@@ -20,6 +20,7 @@ import "proto/google/fhir/proto/annotations.proto";
 
 option java_multiple_files = true;
 option java_package = "com.google.fhir.r4.uscore";
+option go_package = "github.com/google/fhir/go/proto/google/fhir/proto/r4/uscore_codes_go_proto";
 
 // Codes for assigning sex at birth as specified by the [Office of the National
 // Coordinator for Health IT (ONC)](https://www.healthit.gov/newsroom/about-onc)
